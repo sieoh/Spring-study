@@ -41,8 +41,8 @@ public class NaverAPIClient {
   /** API call library -> HttpURLConnection, WebClient, [RestTemplate], Retry  etc... (여기서는 RestTemplate 사용)  **/
   private HttpHeaders getHttpHeaders() {
     HttpHeaders headers = new HttpHeaders();
-    headers.set("X-Naver-Client-Id", "DKr23szy0TgNWJCwf7Cz");
-    headers.set("X-Naver-Client-Secret", "6PpXY8Lg5n");
+    headers.set("X-Naver-Client-Id", "네이버 api id");
+    headers.set("X-Naver-Client-Secret", "네이버 api pw");
     headers.setContentType(MediaType.APPLICATION_JSON);
 
     return headers;
